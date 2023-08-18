@@ -1,0 +1,9 @@
+.wrapper-header-view-form {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-header {
+  & h1 {
+    font-size: 20px;
+  }
+}

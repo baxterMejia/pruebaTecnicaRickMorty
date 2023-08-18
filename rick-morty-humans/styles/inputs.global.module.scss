@@ -1,0 +1,32 @@
+.input-form-main {
+  border: 1px solid var(--color-one); /* Color oscuro similar al del portal */
+  color: var(--color-label-form);
+  width: 100%;
+  height: 39px;
+  padding: 5px;
+  border-radius: 5px;
+  &:focus {
+    border-color: var(--color-primary); /* Color púrpura cuando se enfoca */
+    box-shadow: 0 0 5px var(--color-primary); /* Un sutil resplandor alrededor del input */
+    outline: none;
+  }
+}
+
+.input-form-main--error {
+  border-color: var(--color-two); /* Color rojo para mostrar el error */
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.2); /* Añade una sombra de color rojo alrededor del input cuando hay un error */
+}
+
+.input-form-main-textarea {
+  border: 1px solid var(--color-one); /* Mantenemos el color oscuro del portal */
+  color: var(--color-label-form);
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+  &:focus {
+    border: 1px solid var(--color-primary); /* Color púrpura cuando se enfoca */
+    box-shadow: 0 0 5px var(--color-primary); /* Un sutil resplandor alrededor del textarea */
+    outline: none;
+  }
+  border-radius: 7px;
+}

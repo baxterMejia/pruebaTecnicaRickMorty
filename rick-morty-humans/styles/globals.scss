@@ -1,0 +1,64 @@
+@import './spacings.global.scss';
+@import './primereact/dropdown.scss';
+@import './texts.global.scss';
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(58, 122, 87, 0.1); /* Verde azulado claro, reminiscente del portal */
+}
+
+:root {
+    --color-one: #1E2C38; /* Color oscuro para fondos y contraste */
+    --color-two: #97D8C4; /* Verde azulado inspirado en el color del portal */
+    --color-primary: #A33E99; /* Púrpura inspirado en la nave espacial de Rick */
+    --color-label-form: #525252; /* Un gris medio para las etiquetas de formulario */
+    --color-white: #fff; /* Blanco puro, útil para textos y contrastes */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+hr {
+    border: none;
+    border-bottom: 0.5px solid rgba(58, 122, 87, 0.4) !important; /* Verde azulado claro para el separador */
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(163, 62, 153, 0.2); /* Púrpura ligero para la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(58, 122, 87, 0.4); /* Verde azulado para cuando se pasa el mouse por encima */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(30, 44, 56, 0.1); /* Color oscuro para el fondo de la barra */
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: rgba(255, 220, 77, 0.1); /* Amarillo claro, recordando a Morty, para cuando se pasa el mouse por encima */
+}
+
+textarea {
+    padding: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

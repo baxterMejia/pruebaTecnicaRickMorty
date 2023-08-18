@@ -1,0 +1,16 @@
+.wrapper-smileys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  & > div {
+    padding: 10px;
+    text-align: center;
+    & input {
+      text-align: center;
+    }
+    & img {
+      width: 70px;
+    }
+  }
+}

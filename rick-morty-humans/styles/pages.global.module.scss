@@ -1,0 +1,22 @@
+.wrapper-page {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+  background-color: var(--color-one); /* Usamos el color oscuro como fondo para un toque espacial */
+  color: var(--color-white); /* Color de texto blanco para contraste */
+}
+
+.wrapper-stycky-footer-page {
+  background-color: var(--color-primary); /* Fondo naranja pálido para resaltar el pie de página */
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  bottom: 0;
+  border-top: 2px solid var(--color-two); /* Borde rojo claro para delinear el pie de página */
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para darle profundidad al pie de página */
+}

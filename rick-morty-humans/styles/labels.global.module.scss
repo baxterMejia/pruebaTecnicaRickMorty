@@ -1,0 +1,21 @@
+.label-form-main {
+  color: var(--color-label-form); /* Color gris neutro */
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-form-error {
+  color: var(--color-two); /* Rojo claro para errores */
+  display: block;
+  font-weight: bold; /* Darle un poco más de énfasis al error haciendo la fuente en negrita */
+}
+
+.label-title-form-main {
+  font-size: 20px;
+  color: var(--color-one); /* Usando el color oscuro que simula al portal de Rick y Morty */
+  text-transform: uppercase; /* Convertimos el texto en mayúsculas para darle un toque más estilizado */
+  margin-bottom: 15px; /* Agregamos un poco más de espacio debajo del título */
+  border-bottom: 2px solid var(--color-primary); /* Una línea inferior de color principal (púrpura) */
+  padding-bottom: 5px; /* Un poco de espacio entre el texto y la línea inferior */
+}

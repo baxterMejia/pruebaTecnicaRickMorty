@@ -1,0 +1,41 @@
+.wrapper-modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8); /* Oscurecemos el fondo para darle un toque más "espacial" */
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+  z-index: 1000; /* Incrementamos el z-index para asegurarnos que el modal esté por encima de otros elementos */
+}
+
+.wrapper-modal__content {
+  margin-top: 30px;
+  background-color: var(--color-one); /* Color oscuro de fondo inspirado en los portales */
+  color: var(--color-white); /* Color de texto blanco para contraste */
+  padding: 20px;
+  min-width: 400px;
+  border: 2px solid var(--color-primary); /* Borde púrpura para resaltar el modal */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Sombra suave para darle profundidad */
+}
+
+.wrapper-modal__content__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold; /* Encabezado en negrita para destacar */
+  
+  & i {
+    cursor: pointer;
+    color: var(--color-two); /* Color rojo claro para el ícono (generalmente el de cerrar) */
+    transition: color 0.2s ease; /* Suave transición para el hover */
+
+    &:hover {
+      color: var(--color-primary); /* Cambiamos al color principal al pasar el mouse */
+    }
+  }
+}

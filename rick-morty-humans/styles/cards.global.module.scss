@@ -1,0 +1,11 @@
+.card-main {
+  padding: 20px;
+  box-shadow: 0px 3px 20px var(--color-two); /* Sombras con un toque del verde azulado de los portales */
+  border-radius: 11px;
+  background-color: var(--color-white); /* Fondo blanco para mantener la legibilidad y el enfoque */
+  position: relative;
+}
+
+.card_main--active {
+  border: 1px solid var(--color-primary); /* Cambio el borde rojo al púrpura inspirado en la nave espacial de Rick */
+}

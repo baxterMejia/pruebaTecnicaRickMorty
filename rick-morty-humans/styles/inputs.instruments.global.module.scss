@@ -1,0 +1,28 @@
+.input-form-instrument-label {
+  border: transparent;
+  border-bottom: 1px solid var(--color-one); /* Usamos el color oscuro que simula al portal */
+  width: 100%;
+  font-weight: 600;
+
+  &:focus {
+    border-bottom: 1px solid var(--color-primary); /* Púrpura para el enfoque */
+    box-shadow: 0 2px 5px rgba(255, 119, 0, 0.3); /* Sutil resplandor púrpura al enfocar */
+    outline: none;
+  }
+}
+
+.input-form-instrument-textarea {
+  border: 1px solid var(--color-one); /* Usamos el color oscuro para el borde */
+  color: var(--color-label-form); 
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+
+  &:focus {
+    border: 1px solid var(--color-primary); /* Púrpura cuando se enfoca */
+    box-shadow: 0 2px 5px rgba(255, 119, 0, 0.3); /* Resplandor púrpura al enfocar */
+    outline: none;
+  }
+
+  border-radius: 7px;
+}

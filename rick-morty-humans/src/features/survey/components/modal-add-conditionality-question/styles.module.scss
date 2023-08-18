@@ -1,0 +1,12 @@
+.wrapper-table-condition {
+  width: 100%;
+  overflow-x: auto;
+  & table {
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+    & td {
+      border: 1px solid #ddd;
+    }
+  }
+}

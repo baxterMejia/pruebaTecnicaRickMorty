@@ -1,0 +1,36 @@
+.wrapper-header-question {
+  display: flex;
+  border-bottom: 2px solid var(--color-primary); /* Añadimos una línea inferior de color principal (púrpura) */
+
+  & > div:nth-child(1) {
+    width: 80%;
+    color: var(--color-one); /* Usamos el color oscuro que simula al portal para el texto */
+  }
+  & > div:nth-child(2) {
+    width: calc(20% - 20px);
+    text-align: right;
+    color: var(--color-label-form); /* Color más neutro para esta sección */
+  }
+  & > div:nth-child(3) {
+    width: 20px;
+    text-align: right;
+    color: var(--color-primary); /* Púrpura para cualquier icono o elemento aquí */
+  }
+}
+
+.wrapper-button-add-new-question {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background-color: var(--color-primary); /* Botón de color púrpura */
+  padding: 5px 15px;
+  border-radius: 8px; /* Añadimos bordes redondeados para un mejor aspecto */
+  color: var(--color-white); /* Texto blanco para contrastar con el fondo púrpura */
+  transition: background-color 0.3s; /* Suave transición para el efecto hover */
+
+  &:hover {
+    background-color: var(--color-two); /* Color rojo al pasar el ratón por encima */
+  }
+}

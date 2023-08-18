@@ -1,0 +1,11 @@
+.wrapper-dropdown-date {
+  padding: 20px;
+  & label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  & div:nth-child(2) label,
+  & div:nth-child(3) label {
+    margin-top: 10px;
+  }
+}

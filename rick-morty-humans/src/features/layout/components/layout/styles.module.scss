@@ -1,0 +1,25 @@
+.wrapper-layout {
+  margin: auto;
+  min-height: 100vh;
+}
+
+.wrapper-layout__navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 330px;
+  & img {
+    align-items: center;
+    width: 450px;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.pi-align-justify {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}

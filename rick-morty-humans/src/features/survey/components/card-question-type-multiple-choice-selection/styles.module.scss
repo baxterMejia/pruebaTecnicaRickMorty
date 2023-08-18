@@ -1,0 +1,27 @@
+.wrapper-body-question {
+  padding: 20px;
+}
+
+.wrapper-question-rdb {
+  display: flex;
+  width: 90%;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  & input {
+    cursor: pointer;
+  }
+  & input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  & input[type='text'],
+  & span {
+    cursor: pointer;
+  }
+}
+
+.wrapper-button-add-new-option {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}

@@ -1,0 +1,48 @@
+.wrapper-table {
+  display: flex;
+  padding: 20px;
+  & > div:nth-child(1) {
+    width: calc(100% - 180px);
+  }
+  & > div:nth-child(2) {
+    width: 180px;
+    text-align: right;
+  }
+}
+.wrapper-table-multi-point {
+  overflow-x: auto;
+  table {
+    th,
+    td {
+      padding-left: 10px;
+      padding-right: 10px;
+      & > div {
+        & textarea {
+          resize: vertical;
+          min-height: 50px;
+          width: 100%;
+          border: 1px solid #ddd;
+          border-radius: 7px;
+          font-weight: 600;
+          &:focus {
+            border: 1px solid #8e8c8c;
+            outline: none;
+          }
+        }
+      }
+    }
+
+    thead th > div {
+      width: 200px;
+      display: flex;
+    }
+    tbody td > div {
+      width: 200px;
+      text-align: center;
+    }
+    tbody td:nth-child(1) > div {
+      width: 300px;
+      display: flex;
+    }
+  }
+}

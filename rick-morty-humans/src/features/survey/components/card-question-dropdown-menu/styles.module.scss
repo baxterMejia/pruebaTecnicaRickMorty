@@ -1,0 +1,21 @@
+.wrapper-dropdown {
+  padding: 20px;
+  display: flex;
+  & > div:nth-child(1) {
+    width: calc(100% - 150px);
+  }
+  & > div:nth-child(2) {
+    width: 150px;
+    text-align: right;
+    & button {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      border: 1px solid #000;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

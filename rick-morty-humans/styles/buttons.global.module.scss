@@ -1,0 +1,36 @@
+.button-primary, .button-tertiary {
+  border-radius: 27.5px;
+  font-size: 15px;
+  padding: 7px 24px;
+  cursor: pointer;
+  height: 32px;
+  border: 1px solid transparent;
+}
+
+.button-primary {
+  background-color: var(--color-primary); /* Púrpura inspirado en la nave espacial de Rick */
+  color: var(--color-white);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-two); /* Cambio a Verde azulado inspirado en el color del portal */
+    border: 1px solid var(--color-primary);
+    color: var(--color-one); /* Color oscuro para el contraste */
+  }
+}
+
+.button-primary:disabled {
+  background-color: #ccc;
+  color: var(--color-one); /* Mantenemos el color oscuro para el texto en el botón deshabilitado */
+  pointer-events: none;
+  user-select: none;
+}
+
+.button-tertiary {
+  background-color: transparent;
+  color: var(--color-one); /* Color oscuro por defecto para un botón transparente */
+
+  &:hover {
+    color: var(--color-primary); /* Púrpura para el hover del botón tertiary */
+  }
+}
