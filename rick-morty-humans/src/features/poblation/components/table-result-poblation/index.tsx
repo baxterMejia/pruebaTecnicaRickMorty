@@ -94,7 +94,9 @@ const TableResultPoblation = ({ surveyPaginated, loadingData, onPageChange }: IP
 
       <div>
         <DataTable value={surveyPaginated.items}>
-          <Column field="name" header="Personajes Humanos" body={imageTemplate}></Column>
+          <Column field="name" header="Human Characters" body={imageTemplate}></Column>
+          <Column field="status" header="Status"></Column>
+          <Column field="gender" header="Gender"></Column>
         </DataTable>
         <Paginator
           first={first}
